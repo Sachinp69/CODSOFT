@@ -54,7 +54,7 @@ class Student {
 public class CourseRegistrationSystem {
     static List<Course> courses = new ArrayList<>();
     static Map<String, Student> students = new HashMap<>();
-    static int studentIdCounter = 1; // Start ID counter
+    static int studentIdCounter = 1;
 
     private static void displayCourses() {
         System.out.println("\nAvailable Courses:");
